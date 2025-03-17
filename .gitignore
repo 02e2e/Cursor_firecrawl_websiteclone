@@ -17,6 +17,12 @@
 /build
 /dist
 
+# Next.js build output
+.next
+Copy_Website/.next
+*/.next/
+*/.next/*
+
 # Logs
 logs
 *.log
@@ -44,4 +50,8 @@ Thumbs.db
 
 # Temporary files
 *.tmp
-*.temp 
+*.temp
+
+# Scraped content (if sensitive)
+Copy_Website/public/scraped-content.html
+Copy_Website/public/scraped-styles.css 
