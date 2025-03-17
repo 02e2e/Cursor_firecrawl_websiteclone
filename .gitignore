@@ -54,4 +54,12 @@ Thumbs.db
 
 # Scraped content (if sensitive)
 Copy_Website/public/scraped-content.html
-Copy_Website/public/scraped-styles.css 
+Copy_Website/public/scraped-styles.css
+
+# Image files
+*.png
+*.jpg
+*.jpeg
+*.gif
+# If you want to include specific images, you can use !
+# !Copy_Website/public/logo.png 
