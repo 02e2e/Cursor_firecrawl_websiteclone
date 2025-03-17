@@ -1,0 +1,13 @@
+Hi i want to use firecrawl mcp (maybe if thats right) to create a copy of the ui on this website -- i do have to login to get to this page using cursor @https://8yprp6fbvy.us-east-1.awsapprunner.com/acknowledge  -- help me first structure my files in this folder and create it -- i think its nextjs/ react and maybe python to recreate it 
+
+https://www.firecrawl.dev/app?authSuccess=true&?status=Success!&status_description=You%20are%20now%20signed%20in.
+   npm install -g firecrawl-mcp
+
+   You'll need to obtain a Firecrawl API key from firecrawl.dev
+
+   env FIRECRAWL_API_KEY=your-api-key npx -y firecrawl-mcp
+
+
+
+   1. node src/scripts/scrape.js run to scrape the website
+   2. npm run dev to run the app and see the scraped content
